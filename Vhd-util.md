@@ -157,6 +157,10 @@ Checksum            : 0xffffffff|0xffffffff (Good!)
 ```
   vhd-util set -n name -f field -v value
   为 name vhd 文件 设置 field 属性的值为 value
+  
+  eg : 设置vhd 文件的 hidden 属性
+  
+  vhd-util set -n name -f hidden -v 0 | 1 ( 0 : 显示, 1: 隐藏)
 ```
 
 ### vhd-util repair
